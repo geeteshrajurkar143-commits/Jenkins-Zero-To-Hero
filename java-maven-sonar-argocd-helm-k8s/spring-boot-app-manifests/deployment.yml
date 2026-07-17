@@ -16,10 +16,15 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
+<<<<<<< HEAD
 HEAD
         image: abhishekf5/ultimate-cicd:17
 
         image: geeteshhh14/ultimate-cicd:20
 2c4ca87 (deployment chnages)
         ports:
+=======
+      image: geeteshhh14/ultimate-cicd:replaceImageTag
+      ports:
+>>>>>>> db61711 (done)
         - containerPort: 8080
